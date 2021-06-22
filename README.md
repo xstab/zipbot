@@ -7,6 +7,13 @@
 רובוט זה מאפשר דחיסה של קבצים ובכך חוסך את הצורך בהורדה, דחיסה והעלאה מחדש.
 
 
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/samadii/Archive-bot)
+
+
+
 ### איך להריץ?
 + יש לשבט את המאגר עם הפקודה הבאה:
 </div>
