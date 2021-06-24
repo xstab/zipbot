@@ -46,14 +46,12 @@ class Msg:
               "\nJust send /zip, and follow the instructions."
         return txt
 
-    zip = "שלחו את הקבצים שהנכם רוצים לדחוס, ובסיום שלחו /stopzip לאחר שכל הקבצים ירדו. \n`הבוט תומך בקבצים עד 20mb, " \
-          "ועד 20 קבצים לארכיון אחד.` "
+    zip = "Send the files you want to compress, and at the end send /stopzip after all the files have been downloaded."
     too_big = "הקובץ גדול מידי ):"
     too_much = "ניתן לדחוס עד 20 קבצים בלבד."
-    send_zip = "השתמשו בפקודת /zip בשביל לדחוס קבצים (:"
-    zipping = "מתחיל בדחיסת {} קבצים..."
-    uploading = "מעלה ארכיון..."
-    unknow_error = "התרחשה שגיאה לא ידועה. \nשים לב לסדר הפעולות, ניתן להתחיל מחדש על ידי שליחת /start. \nבדוק אם " \
-                   "שלחת קבצים לדחיסה, ואם חיכית שכולם ירדו. \nבבקשה שלח זה למפתח:\n ```{}``` "
-    downloading = "מוריד קובץ:"
-    zero_files = "לא נשלחו קבצים."
+    send_zip = "use /zip command to compress the files"
+    zipping = "start compressing {} files..."
+    uploading = "uploading archive..."
+    unknow_error = "An unknown error occurred"
+    downloading = "downloading..."
+    zero_files = "No files were sent"
