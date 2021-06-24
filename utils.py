@@ -41,9 +41,9 @@ class Msg:
 
     def start(msg: Message) -> str:
         """ return start-message text """
-        txt = f"Hey {msg.from_user.mention}!\n"
-              "/nHey I can compress files in to an archive."
-              "/nJust send /zip, and follow the instructions."
+        txt = f"Hey {msg.from_user.mention}!\n" \
+              "\nI can compress files in to an archive." \
+              "\nJust send /zip, and follow the instructions."
         return txt
 
     zip = "שלחו את הקבצים שהנכם רוצים לדחוס, ובסיום שלחו /stopzip לאחר שכל הקבצים ירדו. \n`הבוט תומך בקבצים עד 20mb, " \
