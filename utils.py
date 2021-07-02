@@ -46,7 +46,8 @@ class Msg:
               "\nJust send /zip, and follow the instructions."
         return txt
 
-    zip = "Send the files you want to compress, and at the end send /stopzip after all the files have been downloaded.\n\nNote: due to upload limit, the total size of the file(s) can be up to 2GB."
+    zip = "Send the files you want to compress, and at the end send /stopzip after all the files have been downloaded.\n" \
+          "\n\nNote: due to upload limit, the total size of the file(s) can be up to 2GB."
     too_big = "Note: due to upload limit, the total size of the file(s) can be up to 2GB."
     too_much = "Note: the total number of the files can be up to 500, not over than 500"
     send_zip = "Send /zip to compress the files"
