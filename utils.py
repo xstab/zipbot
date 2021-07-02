@@ -46,10 +46,10 @@ class Msg:
               "\nJust send /zip, and follow the instructions."
         return txt
 
-    zip = "Send the files you want to compress, and at the end send /stopzip after all the files have been downloaded."
-    too_big = "הקובץ גדול מידי ):"
-    too_much = "ניתן לדחוס עד 20 קבצים בלבד."
-    send_zip = "use /zip command to compress the files"
+    zip = "Send the files you want to compress, and at the end send /stopzip after all the files have been downloaded.\n\nNote: due to upload limit, the total size of the file(s) can be up to 2GB."
+    too_big = "Note: due to upload limit, the total size of the file(s) can be up to 2GB."
+    too_much = "Note: the total number of the files can be up to 500, not over than 500"
+    send_zip = "Send /zip to compress the files"
     zipping = "start compressing {} files..."
     uploading = "uploading archive..."
     unknow_error = "An unknown error occurred"
